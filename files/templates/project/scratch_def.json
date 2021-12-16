@@ -1,0 +1,25 @@
+{
+  "orgName": "{{ package_name }} - {{ org_name }}",
+  "edition": "{{ edition }}",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false
+      }
+    }{% if not managed %},
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    }
+    {% endif %}
+  }
+}

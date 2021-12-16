@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: 2em;
+}
+#search {
+    width: 20em;
+}
+.header {
+    display: flex;
+    align-items: bottom;
+}
+.header h1 {
+    margin-top: 0px;
+}
+.header search {
+    align-self: flex-end;
+    margin-bottom: 0px;
+}
+.file-header: {
+    margin-bottom: 10em;
+}
+.file-header h2 {
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #127a9a
+}
+.right {
+    margin-left: auto;
+}
+.search {
+    align-self: center;
+}
+.search {
+    border: 0px;
+}
+.search input {
+    border: 1px solid gray;
+    padding: 4px;
+}
+.footer {
+    margin: 30px;
+    /* background: black; */
+    font-size: 80%;
+    /* color: gray; */
+    padding: 4px;
+}
+.section {
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+pre {
+    max-width: 60em;
+    border: 1px solid lightgrey;
+    padding: 10px 0px 10px 10px;
+}
+
+.pageobject-file-description {
+    margin-left: 2em;
+}
+
+.description {
+    margin-top: 0em;
+    margin-bottom: .5em;
+    padding-left: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    max-width: 60em;
+}
+
+.kwtable {
+    box-shadow: 3px 3px 5px #d4d4d4;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    text-align: left;
+    width: 100%;
+}
+.kwtable th {
+    font-weight: normal;
+    background: #109AD7;
+    color: #f0f0f0;
+    padding: 4px;
+    border: 1px solid gray;
+}
+.kwrow td {
+    padding: 4px;
+    border: 1px solid gray;
+    vertical-align: top;
+}
+.kwtable tr:hover {
+    background-color: #f9f9f9;
+}
+.kwtable .kwargs {
+    width: 20%;
+}
+.kwtable .kwname {
+    font-weight: bold;
+    width: 25%;
+    /* min-width: 15em; */
+    /* max-width: 20%; */
+}
+.library-documentation {
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+.pageobject-header {
+    margin-top: 2em;
+    margin-left: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+.pageobject-header td {
+    border: 0px;
+    padding-right: 1.5em;
+}
+.pageobject-header .data {
+    padding-right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.pageobject-header .labels {
+    font-size: .75em;
+    font-weight: normal;
+    color: gray;
+}
